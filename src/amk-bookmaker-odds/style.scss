@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-amk-bookmaker-odds {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+.sec-abo-block{
+  max-width: initial !important;
+  padding: 4em 0;
+  background: #4d94eb;
+}
+.sec-abo-block .wrapper{max-width: 1200px; margin: 0 auto;}
+.sec-abo-block .heading{margin: 0 0 .5em; color: #fff;}
+.sec-abo-block .meta{margin: 0 0 3em; color: #fff; font-weight: 300; font-size: .75em;}
+.sec-abo-block .table{display: flex;}
+.sec-abo-block .table .col{flex: 1;}
+.sec-abo-block .table .th{
+  height: 40px;
+  margin: 0;
+  padding: .5em 1em;
+  background: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .875em;
+}
+.sec-abo-block .table .th img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.sec-abo-block .table .td{margin: 0; padding: .5em 1em; background: #fafafa;}
+.sec-abo-block .table .td:nth-child(3){background: #f2f2f2;}
+.sec-abo-block .table .col:not(.first-col){text-align: center;}
